@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Product</h1>
-    <div>index</div>
+    <div><Button> <a href="/product/create"> Insert Product</a></Button></div>
 </body>
 </html>
