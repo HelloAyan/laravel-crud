@@ -8,5 +8,21 @@
 <body>
     <h1>Product</h1>
     <div><Button> <a href="/product/create"> Insert Product</a></Button></div>
+    <div>
+        <table border='1'>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>ID</td>
+            </tr>
+        </table>
+    </div>
+    
 </body>
 </html>
