@@ -18,27 +18,27 @@
         @endif
     </div>
 
-    <form method="post" action="{{ route('product.store') }}">
+    <form method="post" action="">
     @csrf
     @method('post')
         <div>
             <label for="">Name</label>
-            <input type="text" name='name' placeholder = 'Name'>
+            <input type="text" name='name' value="{{$product->name}}">
         </div>
         <div>
             <label for="">Qty</label>
-            <input type="text" name='qty' placeholder = 'Qty'>
+            <input type="text" name='qty' value="{{$product->qty}}">
         </div>
         <div>
             <label for="">Price</label>
-            <input type="text" name='price' placeholder = 'price'>
+            <input type="text" name='price' value="{{$product->price}}">
         </div>
         <div>
             <label for="">Description</label>
-            <input type="text" name='description' placeholder = 'Description'>
+            <input type="text" name='description' value="{{$product->description}}">
         </div>
         <div>
-            <input type="submit" value="Save a New Product">
+            <input type="submit" value="Update Product">
         </div>
     </form>
 </body>
