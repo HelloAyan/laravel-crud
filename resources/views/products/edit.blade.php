@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Create New Product</h1>
+    <h1>Update Product</h1>
     <div>
         @if($errors->any())
         <ul>
@@ -39,15 +39,6 @@
         </div>
         <div>
             <input type="submit" value="Save a New Product">
-        </div>
-    </form>
-
-    <form action="">
-        <div>
-            <label for="Input text"></label>
-            <input type="text" width tropology set_exception_handler now weithout >
-            <label for="Texg" value input output ></label>
-            
         </div>
     </form>
 </body>
