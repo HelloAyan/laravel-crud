@@ -34,6 +34,11 @@
                 <td>
                     <a href="{{route('product.edit', ['product' => $product])}}">Edit</a>
                 </td>
+                <td>
+                    <form action="">
+                        <input type="submit" value="Delete">
+                    </form>
+                </td>
             </tr>
             @endforeach
         </table>
